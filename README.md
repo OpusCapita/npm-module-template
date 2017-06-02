@@ -1,3 +1,3 @@
-# npm-project-template
+# npm-module-template
 
-Node package project template
+Node module template
