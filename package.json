@@ -1,0 +1,31 @@
+{
+  "name": "@opuscapita/<package name>",
+  "version": "1.0.0",
+  "description": "Node package project template",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "<run tests>",
+    "start": "<start demo applocation if any>",
+    "npm-build": "<build sources into lib folder>",
+    "npm-publish": "npm run npm-build && npm-publish",
+    "publish-snapshot": "npm run npm-publish",
+    "publish-release": "npm run npm-publish -- --release"
+  },
+  "repository": "OpusCapita/<package name>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/OpusCapita/<package name>/issues"
+  },
+  "homepage": "https://github.com/OpusCapita/<package name>",
+  "devDependencies": {
+    "@opuscapita/npm-scripts": "1.0.8",
+    "babel-eslint": "7.1.1",
+    "eslint": "3.12.2",
+    "eslint-config-opuscapita": "1.0.7",
+    "eslint-plugin-react": "6.8.0"
+  }
+}

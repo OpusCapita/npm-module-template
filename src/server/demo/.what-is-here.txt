@@ -1,0 +1,4 @@
+build configuration files for different environments
+for example:
+- for test running here we could have mocha, jest, etc, configuration files
+- webpack configuration files for client/server side sources in production and development modes

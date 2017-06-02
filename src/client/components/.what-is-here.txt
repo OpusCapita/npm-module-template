@@ -1,0 +1,2 @@
+if it is React based app/lib then this folder could be used for placing source code
+of the components that are used in production
